@@ -85,7 +85,6 @@ body{
     font-size: 70px;
     font-weight: 700;
     color: black;
-    /* margin-bottom: 20px; */
 }
 
 .content p{
@@ -110,6 +109,40 @@ body{
     background: transparent;
     color: red;
     border: 1px solid red;
+}
+
+.slider{
+    width: 100%;
+    display: flex;
+}
+
+.slider .sliderImg img{
+    width: 100%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.slider .sliderBtn{
+    margin: auto;
+}
+
+.fa-solid .fa-angle-left{
+    position: fixed;
+    z-index: 0;
+}
+
+.slider .sliderBtn button{
+    padding: 35px 15px;
+    font-size: 40px;
+    border: none;
+    background: transparent;
+    color: red;
+    position: relative;
+}
+
+.slider .sliderImg{
+    display: flex;
+    animation: 32s suchima;
 }
 
 .product{
@@ -201,6 +234,17 @@ footer p a{
     text-decoration: none;
     color: rgb(243, 244, 246);
     font-weight: bold;
+}
+
+@keyframes suchima {
+    0%, 1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%{
+        transform: translateX(0);
+    }
+    20%{transform: translateX(-100%);}
+    40%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    80%{transform: translateX(-400%);}
+    95%{transform: translateX(-500%);}
 }
 
 @media (max-width: 800px){
