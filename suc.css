@@ -12,7 +12,7 @@ body{
 
 .menuBtn{
     color: rgb(66, 65, 68);
-    font-size: 23px;
+    font-size: 35px;
     cursor: pointer;
     display: none;
 }
@@ -88,6 +88,7 @@ body{
 
 .navbar .cartIcon a i{
     color: red;
+    font-size: 35px;
 }
 
 .navbar .cartIcon a:hover{
@@ -96,8 +97,8 @@ body{
 
 #cartCount{
     display: flex;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     color: #fff;
     background-color: rgb(110, 1, 1);
     justify-content: center;
@@ -106,8 +107,8 @@ body{
     font-size: 15px;
     font-weight: 700;
     position: absolute;
-    top: 30%;
-    right: -20px;
+    bottom: 70%;
+    right: -10px;
 }
 
 .content{
@@ -319,6 +320,9 @@ footer p a{
     .navbar .nav-links li a{
         font-size: 23px;
         margin: 10px 0;
+    }
+    .navbar .cartIcon{
+        right: -34%;
     }
     .content{
         background-image: none;
