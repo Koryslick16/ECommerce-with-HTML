@@ -163,7 +163,6 @@ function cartSection(){
     
 }
 
-
 displayProducts();
 cartSection();
 

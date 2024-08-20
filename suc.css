@@ -72,6 +72,8 @@ body{
     list-style: none;
     display: inline-block;
     margin: 0 10px;
+    position: relative;
+    right: 47px;
 }
 
 .navbar .cartIcon a{
@@ -83,6 +85,7 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
+
 .navbar .cartIcon a i{
     color: red;
 }
@@ -92,14 +95,19 @@ body{
 }
 
 #cartCount{
-    padding: 2px 5px;
-    border-radius: 50%;
-    font-size: 13px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    color: #fff;
     background-color: rgb(110, 1, 1);
-    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 700;
     position: absolute;
-    top: 22%;
-    left: 93.7%;
+    top: 30%;
+    right: -20px;
 }
 
 .content{
@@ -176,44 +184,11 @@ body{
     border: none;
     border-radius: 40%;
 }
+
 #close:hover{
     cursor: pointer;
     filter: drop-shadow(1px 1px 40px rgb(61, 1, 1));
 }
-
-/* .slider{
-    width: 100%;
-    display: flex;
-}
-
-.slider .sliderImg img{
-    width: 100%;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.slider .sliderBtn{
-    margin: auto;
-}
-
-.fa-solid .fa-angle-left{
-    position: fixed;
-    z-index: 0;
-}
-
-.slider .sliderBtn button{
-    padding: 35px 15px;
-    font-size: 40px;
-    border: none;
-    background: transparent;
-    color: red;
-    position: relative;
-}
-
-.slider .sliderImg{
-    display: flex;
-    animation: 32s suchima;
-} */
 
 .product{
     text-align: center;
@@ -251,7 +226,7 @@ body{
 
 .productContainer .desc{
     padding: 5px 20px;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 700;
     opacity: 0.8;
 }
@@ -282,7 +257,7 @@ body{
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
-    font-size: 20px;
+    font-size: 10px;
     cursor: pointer;
     border-radius: 5px;
     font-weight: 700;
@@ -311,17 +286,6 @@ footer p a{
     font-weight: bold;
 }
 
-/* @keyframes suchima {
-    0%, 1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%{
-        transform: translateX(0);
-    }
-    20%{transform: translateX(-100%);}
-    40%{transform: translateX(-200%);}
-    60%{transform: translateX(-300%);}
-    80%{transform: translateX(-400%);}
-    95%{transform: translateX(-500%);}
-} */
-
 @media (max-width: 800px){
     .menuBtn{
         display: block;
@@ -329,6 +293,10 @@ footer p a{
     }
     .menuBtn i.active::before{
         content: "\f00d";
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
     }
     .navbar .nav-links{
         position: fixed;
@@ -347,7 +315,6 @@ footer p a{
     .navbar .nav-links li{
         display: flex;
         justify-content: center;
-
     }
     .navbar .nav-links li a{
         font-size: 23px;
