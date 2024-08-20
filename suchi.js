@@ -4,49 +4,49 @@ const products = [
         name: "Leather Purse",
         price: 7400.0,
         desc: "Women's bag of red color, genuine leather.",
-        img: "https://www.istockphoto.com/photo/womens-bag-of-red-color-genuine-leather-grey-painted-wooden-background-space-for-text-gm1335392524-417140841?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fleather-handbags&utm_medium=affiliate&utm_source=unsplash&utm_term=leather+handbags%3A%3A%3A"
+        img: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxlYXRoZXIlMjBoYW5kYmFnc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 2,
         name: "Leather Purse",
         price: 6100.0,
-        desc: "Women's bag of lilac color, genuine leather.",
-        img: "https://www.istockphoto.com/photo/stylish-female-blue-leather-flap-bag-with-top-handle-and-gold-hardware-on-a-graphic-gm1771506182-545882222"
+        desc: "Women's bag of peach color, genuine leather.",
+        img: "https://images.unsplash.com/photo-1685800750376-f4497f5da428?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGVhdGhlciUyMGhhbmRiYWdzfGVufDB8fDB8fHww"
     },
     {
         id: 3,
         name: "Hand Bag",
         price: 4200.0,
-        desc: "Women's bag of bergurndy color, genuine leather.",
-        img: "https://media.istockphoto.com/id/991811996/photo/close-up-fashionable-women-leather-bag-with-business-documents-and-files-inside-for-meeting.jpg?s=612x612&w=0&k=20&c=O6jvRjPH1ECfju7h6Xa_dbDAyRlQKrotDGYh152DLoU="
+        desc: "Women's bag of baby pink color, genuine leather.",
+        img: "https://images.unsplash.com/photo-1682364853446-db043f643207?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxlYXRoZXIlMjBoYW5kYmFnc3xlbnwwfHwwfHx8MA%3D%3D",
     },
     {
         id: 4,
-        name: "Hand Bag",
+        name: "Shoulder Bag",
         price: 5250.0,
-        desc: "Women's bag of brown color, genuine leather.",
-        img: "https://www.istockphoto.com/photo/bag-brown-color-on-red-velvet-background-gm529989152-93332925"
+        desc: "Women's bag of white color, genuine leather.",
+        img: "https://images.unsplash.com/photo-1604176424472-17cd740f74e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGxlYXRoZXIlMjBoYW5kYmFnc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 5,
-        name: "Hand Bag",
+        name: "Leather Bucket Bag",
         price: 9200.0,
-        desc: "Women's bag of yellow color, genuine leather.",
-        img: "https://media.istockphoto.com/id/654112944/photo/yellow-handbag-on-emerald-green-background.jpg?s=612x612&w=0&k=20&c=OLNPCKx8s5WxKdpGrzTPzTxf8qTbcODLXuplVIvh0DI="
+        desc: "Women's bag of black color, genuine leather.",
+        img: "https://images.unsplash.com/photo-1511405946472-a37e3b5ccd47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGxlYXRoZXIlMjBoYW5kYmFnc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 6,
         name: "Ladies Bag",
         price: 705.0,
-        desc: "Women's bag of brown color, genuine leather.",
-        img: "https://media.istockphoto.com/id/995132402/photo/ladies-bag-still-life-photography.jpg?s=612x612&w=0&k=20&c=1uPuNGT-WorxyvEUF90zT683ni1nxAas6AEZjjrPhVI="
+        desc: "Women's bag of flowered pattern, genuine leather.",
+        img: "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fGxlYXRoZXIlMjBoYW5kYmFnc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 7,
         name: "Hand Bag",
         price: 5940.0,
-        desc: "Women's bag of brown & black color, genuine leather.",
-        img: "/pics/suchima_4.jpg"
+        desc: "Women's bag of brown color, genuine leather.",
+        img: "https://images.unsplash.com/photo-1624687943971-e86af76d57de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGxlYXRoZXIlMjBoYW5kYmFnc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
         id: 8,
